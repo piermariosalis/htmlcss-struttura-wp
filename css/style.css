@@ -4,17 +4,25 @@
   padding: 0;
 }
 
+body{
+  background: lightgreen;
 
+}
 .container{
-  width: 45%;
+  width: 50%;
   height: 100vh;
   margin: auto;
 }
 
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .logo{
   width: 100%;
-  height: 20%;
+  height: 25%;
   background: yellow;
 }
 
@@ -22,10 +30,55 @@
   width: 100%;
   height: 5%;
   background-color: black;
+  margin-bottom: 15px;
 }
 
 .left_column{
   width: 30%;
   height: 30vh;
   background: green;
+}
+
+.main_page{
+  width: 50%;
+  height: 40vh;
+  background: lightgreen;
+}
+
+.marginleftandright{
+  width: 90%;
+  height: 100%;
+  background: orange;
+  margin: auto;
+}
+
+.right_column{
+  width: 20%;
+  height: 100vh;
+  background: lightgreen;
+}
+
+.column_right{
+
+}
+
+.one, .two, .three{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 33.33%;
+  background: white;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+.footer_page{
+  margin-top: 10px;
+  width: 100%;
+  height: 10%;
+  background: lightblue;
 }
